@@ -1,0 +1,12 @@
+//commonJS, every file is module (by default)
+//Modules - Encapsulated Code (only share minimum)
+
+const {phon,john} = require('./4-names.js')
+const sayHi = require('./1-intro.js')
+const data = require('./alternative.js')
+require('./7-mindGrenade.js')
+console.log(data.singlePerson.name)
+console.log(data.items[1])
+sayHi(phon)
+sayHi(john)
+sayHi('jj') 
